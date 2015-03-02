@@ -1,0 +1,26 @@
+<tables>
+  <table comment_char="#" name="all_fasta">
+    <columns>value, dbkey, name, path</columns>
+    <file path="tool-data/all_fasta.loc"/>
+  </table>
+  <table comment_char="#" name="bowtie2_indexes">
+    <columns>value, dbkey, name, path</columns>
+    <file path="tool-data/bowtie2_indices.loc"/>
+  </table>
+  <table comment_char="#" name="bwa_indexes">
+    <columns>value, dbkey, name, path</columns>
+    <file path="tool-data/bwa_index.loc"/>
+  </table>
+  <table comment_char="#" name="fasta_indexes">
+    <columns>value, dbkey, name, path</columns>
+    <file path="tool-data/fasta_indexes.loc"/>
+  </table>
+  <table comment_char="#" name="snpeffv_genomedb">
+    <columns>key, version, value, name, path</columns>
+    <file path="tool-data/snpeffv_genomedb.loc"/>
+  </table>
+  <table comment_char="#" name="snpeffv_databases">
+    <columns>key, version, value, name</columns>
+    <file path="tool-data/snpeffv_databases.loc"/>
+  </table>
+</tables>
